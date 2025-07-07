@@ -22,8 +22,8 @@ function Header() {
         
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="text-gray-700 hover:text-primary">Accueil</Link>
-          <Link to="/" className="text-gray-700 hover:text-primary">Produits</Link>
-          <Link to="/" className="text-gray-700 hover:text-primary">Contact</Link>
+          <Link to="/products" className="text-gray-700 hover:text-primary">Produits</Link>
+          <Link to="/contact" className="text-gray-700 hover:text-primary">Contact</Link>
         </nav>
         
         <div className="flex items-center space-x-4">
