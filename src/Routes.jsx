@@ -14,7 +14,7 @@ export default function AppRoutes() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/product/:id" element={<ProductPage />} />
       <Route path="/checkout" element={<Checkout />} /> 
-      <Route path="/confirmation" element={<Confirmation />} />
+       <Route path="/confirmation" element={<Confirmation />} />
     </Routes>
   );
 }
